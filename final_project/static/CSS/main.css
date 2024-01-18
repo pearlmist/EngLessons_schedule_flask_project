@@ -1,0 +1,178 @@
+
+ /* меню страниц */
+ .menu {     
+    background-color: #f1f1f1;    
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.4);     
+    width: 100%; 
+}  
+/*Теперь уберем маркеры со списка и произведем выравнивание его элементов в одну линию*/  
+.menu li {     
+    display: inline-block;     
+    vertical-align: top;      
+    padding: 10px;       
+    color: #6f6d6d; 
+}  
+.menu a {     
+        text-decoration: none; 
+        /* Убирает подчеркивание для ссылок */     
+        color: #6f6d6d;    }   
+.menu li:hover 
+{     
+    background-color: #f87777;     
+    cursor: pointer;    
+    color: #f8f8f8; } 
+.menu ul {     
+    padding: 0px; 
+}  
+.active{    
+    background-color: #f87777;     
+    color: #f8f8f8; }  
+.active a:visited{     
+    color: #f8f8f8; 
+} 
+.menu  a:hover{     
+    color: #f8f8f8; 
+}  
+.block {     
+    padding: 10px 20px;
+    padding-top: 0px;
+} 
+.all_card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px solid #472323;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+    width: 300px;
+    height: 330px;
+    background-color: #eee;
+    box-shadow: 0px 4px 4px rgba(29, 6, 6, 0.25);
+}
+table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: #FAE4E4;
+}
+table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #F0D8D8;
+	border: 1px solid black;
+}
+table td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+table a{
+    text-decoration: none;
+	color: black;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+details > summary {
+    padding: 5px;
+    background-color: #eee;
+    color: #333;
+    border: 1px #ccc solid;
+    cursor: pointer;
+    margin: 5px;
+}
+.checkboxs{
+    padding: 5px;
+    margin: 5px;
+    color: #720707;
+    cursor: pointer;
+    width: 10%;
+}
+input{
+    margin:10 px;
+}
+
+
+
+
+ body {
+    background-color: #7B7EB1;
+    font-family: calibri;
+ }
+.second_body {
+    width: 85%;
+    padding-top: 10px;
+    margin: 0 auto;
+    background-color: #9193C7;
+    box-shadow: 6px 6px 7px #2F3181;
+    border-radius: 10px 20px;
+}
+ .head p{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-decoration: bold;
+ }
+.level{
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.level button{
+    width: 30px;
+    height: 30px;
+}
+.block button {
+    align:right;
+}
+button {
+    background-color:#FAE4E4
+}
+button:focus{
+    background-color:#F2A6A6
+}
+.flex_start {
+    display:flex;
+}
+.type_buttons {
+    flex:1;
+}
+.type_buttons button {
+    min-width: 40%;
+    font-size: 16px;
+    background-color:#FAE4E4
+}
+.type_buttons button:focus {
+    background-color:#F2A6A6
+}
+.start_n_days {
+    flex:2;
+    text-align: right;
+    font-size: 16px;
+}
+.start_n_days label {
+    text-align: right;
+    color: white;
+}
+.table_class button {
+    border: none;
+    outline: none;
+}
+.table_class input {
+    accent-color: #7B7EB1;
+}
